@@ -24,6 +24,7 @@ const LinkResult = ({ inputValue }) => {
         if (inputValue.length) {
             fetchData();
         }
+        // eslint-disable-next-line
     }, [inputValue]);
 
     useEffect(() => {
